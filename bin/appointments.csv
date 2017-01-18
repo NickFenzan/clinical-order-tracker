@@ -1,0 +1,246 @@
+prnt apptid,apptdate,apptstarttime,patientid,svc dprtmnt,appttype,apptslotstatus
+238449,01/18/2017,08:00 AM,31294,NOVI,New Patient,3 - Checked Out
+238451,01/18/2017,09:30 AM,31285,NOVI,New Patient,3 - Checked Out
+238453,01/18/2017,11:00 AM,31063,NOVI,New Patient,f - Filled
+238457,01/18/2017,12:30 PM,31212,NOVI,New Patient,f - Filled
+239802,01/18/2017,08:30 AM,30958,NOVI,1 Week,x - Cancelled
+239803,01/18/2017,08:45 AM,30079,NOVI,3 Month Follow Up,3 - Checked Out
+239803,01/18/2017,09:00 AM,30079,NOVI,3 Month Follow Up,3 - Checked Out
+239803,01/18/2017,09:15 AM,30079,NOVI,3 Month Follow Up,3 - Checked Out
+239806,01/18/2017,09:30 AM,19641,NOVI,6 Month Follow Up,x - Cancelled
+239806,01/18/2017,09:45 AM,19641,NOVI,6 Month Follow Up,x - Cancelled
+239806,01/18/2017,10:00 AM,19641,NOVI,6 Month Follow Up,x - Cancelled
+239809,01/18/2017,10:15 AM,31377,NOVI,New Patient,2 - Checked In
+239809,01/18/2017,10:30 AM,31377,NOVI,New Patient,2 - Checked In
+239809,01/18/2017,10:45 AM,31377,NOVI,New Patient,2 - Checked In
+239810,01/18/2017,10:30 AM,29891,NOVI,3 Month Follow Up,x - Cancelled
+239810,01/18/2017,10:45 AM,29891,NOVI,3 Month Follow Up,x - Cancelled
+239810,01/18/2017,11:00 AM,29891,NOVI,3 Month Follow Up,x - Cancelled
+239813,01/18/2017,11:15 AM,29997,NOVI,3 Month Follow Up,f - Filled
+239813,01/18/2017,11:30 AM,29997,NOVI,3 Month Follow Up,f - Filled
+239813,01/18/2017,11:45 AM,29997,NOVI,3 Month Follow Up,f - Filled
+239816,01/18/2017,12:00 PM,26634,NOVI,1 Week,f - Filled
+239820,01/18/2017,01:00 PM,18753,NOVI,1 Week,x - Cancelled
+239821,01/18/2017,01:15 PM,14367,NOVI,Established Full Consult,x - Cancelled
+239821,01/18/2017,01:30 PM,14367,NOVI,Established Full Consult,x - Cancelled
+239821,01/18/2017,01:45 PM,14367,NOVI,Established Full Consult,x - Cancelled
+239824,01/18/2017,02:00 PM,14349,NOVI,VeinErase - Facial,f - Filled
+239824,01/18/2017,02:15 PM,14349,NOVI,VeinErase - Facial,f - Filled
+239826,01/18/2017,02:30 PM,30483,NOVI,3 Month Follow Up,f - Filled
+239826,01/18/2017,02:45 PM,30483,NOVI,3 Month Follow Up,f - Filled
+239826,01/18/2017,03:00 PM,30483,NOVI,3 Month Follow Up,f - Filled
+239830,01/18/2017,03:30 PM,31195,NOVI,Ultrasound,f - Filled
+239830,01/18/2017,03:45 PM,31195,NOVI,Ultrasound,f - Filled
+239830,01/18/2017,04:00 PM,31195,NOVI,Ultrasound,f - Filled
+239833,01/18/2017,04:15 PM,30447,NOVI,1 Week,x - Cancelled
+239834,01/18/2017,04:30 PM,30447,NOVI,1 Week,x - Cancelled
+241466,01/18/2017,04:30 PM,31335,NOVI,Free Evaluation,f - Filled
+242269,01/18/2017,08:30 AM,24990,NOVI,VeinErase Legs,x - Cancelled
+242270,01/18/2017,09:15 AM,14466,NOVI,VeinErase Legs,3 - Checked Out
+242271,01/18/2017,10:00 AM,14924,NOVI,VeinErase Legs,3 - Checked Out
+242272,01/18/2017,10:45 AM,25902,NOVI,VeinErase Legs,x - Cancelled
+242277,01/18/2017,01:00 PM,18743,NOVI,VeinErase Legs,f - Filled
+263339,01/18/2017,08:30 AM,30077,TROY,EVTA MP,3 - Checked Out
+263339,01/18/2017,08:45 AM,30077,TROY,EVTA MP,3 - Checked Out
+263339,01/18/2017,09:00 AM,30077,TROY,EVTA MP,3 - Checked Out
+263339,01/18/2017,09:15 AM,30077,TROY,EVTA MP,3 - Checked Out
+263343,01/18/2017,09:30 AM,31012,TROY,EVTA MP,x - Cancelled
+263343,01/18/2017,09:45 AM,31012,TROY,EVTA MP,x - Cancelled
+263343,01/18/2017,10:00 AM,31012,TROY,EVTA MP,x - Cancelled
+263348,01/18/2017,10:45 AM,28550,TROY,EVTA MP,2 - Checked In
+263348,01/18/2017,11:00 AM,28550,TROY,EVTA MP,2 - Checked In
+263348,01/18/2017,11:15 AM,28550,TROY,EVTA MP,2 - Checked In
+263357,01/18/2017,01:00 PM,31277,TROY,EVTA MP,f - Filled
+263357,01/18/2017,01:15 PM,31277,TROY,EVTA MP,f - Filled
+263357,01/18/2017,01:30 PM,31277,TROY,EVTA MP,f - Filled
+263360,01/18/2017,01:45 PM,23475,TROY,EVTA MP,f - Filled
+263360,01/18/2017,02:00 PM,23475,TROY,EVTA MP,f - Filled
+263360,01/18/2017,02:15 PM,23475,TROY,EVTA MP,f - Filled
+263360,01/18/2017,02:30 PM,23475,TROY,EVTA MP,f - Filled
+263366,01/18/2017,03:15 PM,30296,TROY,EVTA MP,x - Cancelled
+263366,01/18/2017,03:30 PM,30296,TROY,EVTA MP,x - Cancelled
+263366,01/18/2017,03:45 PM,30296,TROY,EVTA MP,x - Cancelled
+263366,01/18/2017,04:00 PM,30296,TROY,EVTA MP,x - Cancelled
+266575,01/18/2017,09:00 AM,30824,TROY,1 Week,3 - Checked Out
+266577,01/18/2017,09:30 AM,30840,TROY,1 Week,x - Cancelled
+266583,01/18/2017,11:00 AM,27424,TROY,1 Week,f - Filled
+266591,01/18/2017,01:00 PM,14797,TROY,6 Month Follow Up,f - Filled
+266591,01/18/2017,01:15 PM,14797,TROY,6 Month Follow Up,f - Filled
+266591,01/18/2017,01:30 PM,14797,TROY,6 Month Follow Up,f - Filled
+266594,01/18/2017,01:45 PM,18774,TROY,Yearly Follow Up,x - Cancelled
+266594,01/18/2017,02:00 PM,18774,TROY,Yearly Follow Up,x - Cancelled
+266594,01/18/2017,02:15 PM,18774,TROY,Yearly Follow Up,x - Cancelled
+266597,01/18/2017,02:30 PM,22007,TROY,Yearly Follow Up,x - Cancelled
+266597,01/18/2017,02:45 PM,22007,TROY,Yearly Follow Up,x - Cancelled
+266597,01/18/2017,03:00 PM,22007,TROY,Yearly Follow Up,x - Cancelled
+266603,01/18/2017,04:00 PM,25347,TROY,1 Week,x - Cancelled
+270545,01/18/2017,08:00 AM,30452,MONROE,New Patient,x - Cancelled
+270546,01/18/2017,08:45 AM,31086,MONROE,New Patient,3 - Checked Out
+270547,01/18/2017,09:30 AM,31085,MONROE,New Patient,x - Cancelled
+270548,01/18/2017,10:15 AM,31114,MONROE,New Patient,x - Cancelled
+270549,01/18/2017,11:00 AM,31168,MONROE,New Patient,x - Cancelled
+270553,01/18/2017,12:30 PM,31128,MONROE,New Patient,x - Cancelled
+270553,01/18/2017,01:15 PM,31128,MONROE,New Patient,x - Cancelled
+270555,01/18/2017,02:00 PM,31238,MONROE,New Patient,f - Filled
+270556,01/18/2017,02:45 PM,31150,MONROE,New Patient,f - Filled
+270557,01/18/2017,03:30 PM,31096,MONROE,New Patient,f - Filled
+270571,01/18/2017,08:30 AM,30310,MONROE,3 Month Follow Up,x - Cancelled
+270571,01/18/2017,08:45 AM,30310,MONROE,3 Month Follow Up,x - Cancelled
+270571,01/18/2017,09:00 AM,30310,MONROE,3 Month Follow Up,x - Cancelled
+270574,01/18/2017,09:15 AM,30335,MONROE,3 Month Follow Up,3 - Checked Out
+270574,01/18/2017,09:30 AM,30335,MONROE,3 Month Follow Up,3 - Checked Out
+270574,01/18/2017,09:45 AM,30335,MONROE,3 Month Follow Up,3 - Checked Out
+270577,01/18/2017,10:00 AM,29711,MONROE,EVCA,x - Cancelled
+270577,01/18/2017,10:15 AM,29711,MONROE,EVCA,x - Cancelled
+270579,01/18/2017,10:30 AM,20841,MONROE,Yearly Follow Up,2 - Checked In
+270579,01/18/2017,10:45 AM,20841,MONROE,Yearly Follow Up,2 - Checked In
+270579,01/18/2017,11:00 AM,20841,MONROE,Yearly Follow Up,2 - Checked In
+270582,01/18/2017,11:15 AM,27605,MONROE,Yearly Follow Up,f - Filled
+270582,01/18/2017,11:30 AM,27605,MONROE,Yearly Follow Up,f - Filled
+270582,01/18/2017,11:45 AM,27605,MONROE,Yearly Follow Up,f - Filled
+270589,01/18/2017,01:00 PM,28986,MONROE,6 Month Follow Up,f - Filled
+270589,01/18/2017,01:15 PM,28986,MONROE,6 Month Follow Up,f - Filled
+270589,01/18/2017,01:30 PM,28986,MONROE,6 Month Follow Up,f - Filled
+270592,01/18/2017,01:45 PM,30034,MONROE,3 Month Follow Up,f - Filled
+270592,01/18/2017,02:00 PM,30034,MONROE,3 Month Follow Up,f - Filled
+270592,01/18/2017,02:15 PM,30034,MONROE,3 Month Follow Up,f - Filled
+270595,01/18/2017,02:30 PM,28668,MONROE,6 Month Follow Up,x - Cancelled
+270595,01/18/2017,02:45 PM,28668,MONROE,6 Month Follow Up,x - Cancelled
+270595,01/18/2017,03:00 PM,28668,MONROE,6 Month Follow Up,x - Cancelled
+270598,01/18/2017,03:15 PM,30287,MONROE,3 Month Follow Up,f - Filled
+270598,01/18/2017,03:30 PM,30287,MONROE,3 Month Follow Up,f - Filled
+270598,01/18/2017,03:45 PM,30287,MONROE,3 Month Follow Up,f - Filled
+270601,01/18/2017,04:00 PM,26069,MONROE,Yearly Follow Up,x - Cancelled
+270601,01/18/2017,04:15 PM,26069,MONROE,Yearly Follow Up,x - Cancelled
+270601,01/18/2017,04:30 PM,26069,MONROE,Yearly Follow Up,x - Cancelled
+276961,01/18/2017,09:30 AM,30787,TROY,EVTA MP,x - Cancelled
+276961,01/18/2017,09:45 AM,30787,TROY,EVTA MP,x - Cancelled
+276961,01/18/2017,10:00 AM,30787,TROY,EVTA MP,x - Cancelled
+277773,01/18/2017,09:30 AM,31091,TROY,EVTA MP,x - Cancelled
+277773,01/18/2017,09:45 AM,31091,TROY,EVTA MP,x - Cancelled
+277773,01/18/2017,10:00 AM,31091,TROY,EVTA MP,x - Cancelled
+280126,01/18/2017,10:30 AM,29789,MONROE,VeinErase Legs,x - Cancelled
+280126,01/18/2017,10:45 AM,29789,MONROE,VeinErase Legs,x - Cancelled
+280126,01/18/2017,11:00 AM,29789,MONROE,VeinErase Legs,x - Cancelled
+280268,01/18/2017,12:30 PM,31032,MONROE,New Patient,f - Filled
+280269,01/18/2017,01:15 PM,31332,MONROE,New Patient,f - Filled
+280826,01/18/2017,10:15 AM,31296,MONROE,New Patient,x - Cancelled
+280958,01/18/2017,09:30 AM,31316,MONROE,New Patient,2 - Checked In
+281706,01/18/2017,12:15 PM,28609,NOVI,VeinErase Legs,f - Filled
+281708,01/18/2017,01:45 PM,23788,NOVI,VeinErase Legs,x - Cancelled
+281709,01/18/2017,02:30 PM,28383,NOVI,VeinErase Legs,f - Filled
+281710,01/18/2017,03:15 PM,21829,NOVI,VeinErase Legs,f - Filled
+281710,01/18/2017,03:30 PM,21829,NOVI,VeinErase Legs,f - Filled
+281710,01/18/2017,03:45 PM,21829,NOVI,VeinErase Legs,f - Filled
+281714,01/18/2017,04:15 PM,20020,NOVI,VeinErase MESSA,x - Cancelled
+282866,01/18/2017,01:15 PM,14367,NOVI,New Patient,f - Filled
+282866,01/18/2017,01:30 PM,14367,NOVI,New Patient,f - Filled
+282866,01/18/2017,01:45 PM,14367,NOVI,New Patient,f - Filled
+283264,01/18/2017,08:00 AM,31365,MONROE,New Patient,3 - Checked Out
+283346,01/18/2017,04:00 PM,31016,MONROE,Office Visit,f - Filled
+286271,01/18/2017,10:00 AM,30594,MONROE,Office Visit,x - Cancelled
+286271,01/18/2017,10:15 AM,30594,MONROE,Office Visit,x - Cancelled
+289629,01/18/2017,04:15 PM,26634,NOVI,3 Month Follow Up,f - Filled
+289629,01/18/2017,04:30 PM,26634,NOVI,3 Month Follow Up,f - Filled
+289956,01/18/2017,01:45 PM,20728,NOVI,VeinErase Legs,f - Filled
+289988,01/18/2017,09:30 AM,26634,NOVI,Yearly Follow Up,x - Cancelled
+289988,01/18/2017,09:45 AM,26634,NOVI,Yearly Follow Up,x - Cancelled
+289988,01/18/2017,10:00 AM,26634,NOVI,Yearly Follow Up,x - Cancelled
+290019,01/18/2017,09:30 AM,31411,TROY,New Patient,2 - Checked In
+290041,01/18/2017,03:00 PM,18774,TROY,Yearly Follow Up,f - Filled
+290041,01/18/2017,03:15 PM,18774,TROY,Yearly Follow Up,f - Filled
+290041,01/18/2017,03:30 PM,18774,TROY,Yearly Follow Up,f - Filled
+,01/18/2017,08:00 AM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,08:00 AM,,NOVI,Free Evaluation,o - Open Slot
+,01/18/2017,08:15 AM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,08:15 AM,,NOVI,Free Evaluation,o - Open Slot
+,01/18/2017,08:30 AM,,MONROE,VeinErase,o - Open Slot
+,01/18/2017,08:30 AM,,NOVI,VeinErase Legs,o - Open Slot
+,01/18/2017,08:30 AM,,TROY,Consult,o - Open Slot
+,01/18/2017,08:45 AM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,08:45 AM,,MONROE,VeinErase,o - Open Slot
+,01/18/2017,08:45 AM,,NOVI,Free Evaluation,o - Open Slot
+,01/18/2017,08:45 AM,,NOVI,New Patient,o - Open Slot
+,01/18/2017,08:45 AM,,TROY,Consult,o - Open Slot
+,01/18/2017,09:00 AM,,MONROE,VeinErase,o - Open Slot
+,01/18/2017,09:15 AM,,TROY,Consult,o - Open Slot
+,01/18/2017,09:30 AM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,09:30 AM,,NOVI,Free Evaluation,o - Open Slot
+,01/18/2017,09:30 AM,,TROY,Consult,o - Open Slot
+,01/18/2017,09:30 AM,,TROY,Procedure,o - Open Slot
+,01/18/2017,09:45 AM,,TROY,Consult,o - Open Slot
+,01/18/2017,09:45 AM,,TROY,Procedure,o - Open Slot
+,01/18/2017,10:00 AM,,MONROE,Consult,o - Open Slot
+,01/18/2017,10:00 AM,,TROY,Consult,o - Open Slot
+,01/18/2017,10:00 AM,,TROY,Procedure,o - Open Slot
+,01/18/2017,10:15 AM,,MONROE,Consult,o - Open Slot
+,01/18/2017,10:15 AM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,10:15 AM,,NOVI,Free Evaluation,o - Open Slot
+,01/18/2017,10:15 AM,,NOVI,New Patient,o - Open Slot
+,01/18/2017,10:15 AM,,TROY,Consult,o - Open Slot
+,01/18/2017,10:15 AM,,TROY,Procedure,o - Open Slot
+,01/18/2017,10:30 AM,,MONROE,VeinErase,o - Open Slot
+,01/18/2017,10:30 AM,,TROY,Consult,o - Open Slot
+,01/18/2017,10:30 AM,,TROY,Procedure,o - Open Slot
+,01/18/2017,10:45 AM,,MONROE,VeinErase,o - Open Slot
+,01/18/2017,10:45 AM,,NOVI,VeinErase Legs,o - Open Slot
+,01/18/2017,10:45 AM,,TROY,Consult,o - Open Slot
+,01/18/2017,11:00 AM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,11:00 AM,,MONROE,New Patient,o - Open Slot
+,01/18/2017,11:00 AM,,MONROE,VeinErase,o - Open Slot
+,01/18/2017,11:00 AM,,NOVI,Consult,o - Open Slot
+,01/18/2017,11:00 AM,,NOVI,Free Evaluation,o - Open Slot
+,01/18/2017,11:15 AM,,TROY,Consult,o - Open Slot
+,01/18/2017,11:30 AM,,TROY,Consult,o - Open Slot
+,01/18/2017,11:45 AM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,11:45 AM,,NOVI,Free Evaluation,o - Open Slot
+,01/18/2017,11:45 AM,,TROY,Consult,o - Open Slot
+,01/18/2017,12:00 PM,,MONROE,Consult,o - Open Slot
+,01/18/2017,12:00 PM,,TROY,Consult,o - Open Slot
+,01/18/2017,12:45 PM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,12:45 PM,,NOVI,Free Evaluation,o - Open Slot
+,01/18/2017,01:00 PM,,MONROE,VeinErase,o - Open Slot
+,01/18/2017,01:00 PM,,NOVI,Consult,o - Open Slot
+,01/18/2017,01:15 PM,,MONROE,VeinErase,o - Open Slot
+,01/18/2017,01:15 PM,,NOVI,New Patient,o - Open Slot
+,01/18/2017,01:30 PM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,01:30 PM,,MONROE,VeinErase,o - Open Slot
+,01/18/2017,01:30 PM,,NOVI,Free Evaluation,o - Open Slot
+,01/18/2017,01:45 PM,,TROY,Consult,o - Open Slot
+,01/18/2017,02:00 PM,,NOVI,New Patient,o - Open Slot
+,01/18/2017,02:00 PM,,TROY,Consult,o - Open Slot
+,01/18/2017,02:15 PM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,02:15 PM,,NOVI,Free Evaluation,o - Open Slot
+,01/18/2017,02:15 PM,,TROY,Consult,o - Open Slot
+,01/18/2017,02:30 PM,,MONROE,Consult,o - Open Slot
+,01/18/2017,02:30 PM,,TROY,Consult,o - Open Slot
+,01/18/2017,02:45 PM,,MONROE,Consult,o - Open Slot
+,01/18/2017,02:45 PM,,NOVI,New Patient,o - Open Slot
+,01/18/2017,02:45 PM,,TROY,Consult,o - Open Slot
+,01/18/2017,02:45 PM,,TROY,Procedure,o - Open Slot
+,01/18/2017,03:00 PM,,MONROE,Consult,o - Open Slot
+,01/18/2017,03:00 PM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,03:00 PM,,MONROE,VeinErase,o - Open Slot
+,01/18/2017,03:00 PM,,NOVI,Free Evaluation,o - Open Slot
+,01/18/2017,03:00 PM,,TROY,Procedure,o - Open Slot
+,01/18/2017,03:15 PM,,MONROE,VeinErase,o - Open Slot
+,01/18/2017,03:15 PM,,NOVI,Consult,o - Open Slot
+,01/18/2017,03:15 PM,,TROY,Procedure,o - Open Slot
+,01/18/2017,03:30 PM,,MONROE,VeinErase,o - Open Slot
+,01/18/2017,03:30 PM,,NOVI,New Patient,o - Open Slot
+,01/18/2017,03:30 PM,,TROY,Procedure,o - Open Slot
+,01/18/2017,03:45 PM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,03:45 PM,,NOVI,Free Evaluation,o - Open Slot
+,01/18/2017,03:45 PM,,TROY,Consult,o - Open Slot
+,01/18/2017,03:45 PM,,TROY,Procedure,o - Open Slot
+,01/18/2017,04:00 PM,,NOVI,VeinErase,o - Open Slot
+,01/18/2017,04:00 PM,,TROY,Consult,o - Open Slot
+,01/18/2017,04:00 PM,,TROY,Procedure,o - Open Slot
+,01/18/2017,04:15 PM,,MONROE,Consult,o - Open Slot
+,01/18/2017,04:15 PM,,NOVI,VeinErase,o - Open Slot
+,01/18/2017,04:15 PM,,TROY,Consult,o - Open Slot
+,01/18/2017,04:15 PM,,TROY,Procedure,o - Open Slot
+,01/18/2017,04:30 PM,,MONROE,Consult,o - Open Slot
+,01/18/2017,04:30 PM,,MONROE,Free Evaluation,o - Open Slot
+,01/18/2017,04:30 PM,,NOVI,VeinErase,o - Open Slot
+,01/18/2017,04:30 PM,,TROY,Consult,o - Open Slot

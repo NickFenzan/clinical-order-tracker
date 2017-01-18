@@ -1,0 +1,24 @@
+Daily Check {
+	Find appointments.csv
+	Find orders.csv
+	Build local database of appointments
+	For each order {
+		If order does not exist locally, create it
+		If the order exists and is closed, skip to the next order
+		If the order already has an appointment, check its validity
+		If it is valid, skip the next 5 steps
+			Look for valid appointment with same patient id and acceptable appointment type for order
+			If found, associate appointment with order
+			Check date range for approval
+			Check date range for out-of-pocket
+			Check date range for pre-procedure 
+		If the order has an appointment and the date has passed close the order
+		
+	}
+}
+
+We are keeping track of whether all procedure orders:
+- Have insurance approval
+- Have been contacted about out-of-pocket
+- Have been given pre-procedure instructions
+- Have an appointment
