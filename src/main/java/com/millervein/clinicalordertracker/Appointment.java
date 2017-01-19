@@ -19,6 +19,8 @@ public class Appointment {
 	@Enumerated(EnumType.STRING)
 	private AppointmentStatus status;
 
+	protected Appointment(){}
+	
 	public Appointment(String id, LocalDateTime start, String patientId, String department, AppointmentType type,
 			AppointmentStatus status) {
 		super();
