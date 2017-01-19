@@ -6,13 +6,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ClinicalordertrackerApplication implements CommandLineRunner {
+public class ClinicalOrderTrackerApplication implements CommandLineRunner {
 	
 	@Autowired
 	private AthenaCSVUpdateService a;
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClinicalordertrackerApplication.class, args);
+		SpringApplication.run(ClinicalOrderTrackerApplication.class, args);
 	}
 
 	@Override
