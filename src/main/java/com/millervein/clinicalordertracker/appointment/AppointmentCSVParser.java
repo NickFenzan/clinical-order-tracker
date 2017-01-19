@@ -1,4 +1,4 @@
-package com.millervein.clinicalordertracker;
+package com.millervein.clinicalordertracker.appointment;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -11,9 +11,9 @@ import java.util.List;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component
 public class AppointmentCSVParser {
 	public List<Appointment> parse(Reader in) throws IOException {
 		Iterable<CSVRecord> records = CSVFormat.RFC4180.withFirstRecordAsHeader().parse(in);

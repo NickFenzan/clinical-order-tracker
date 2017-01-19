@@ -7,37 +7,45 @@ import java.io.FileReader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.millervein.clinicalordertracker.appointment.AppointmentCSVLoader;
+import com.millervein.clinicalordertracker.clinicalorder.ClincalOrderCSVLoader;
+import com.millervein.clinicalordertracker.clinicalorder.ClinicalOrderStateUpdater;
+
 @Service
 public class AthenaCSVUpdateService {
 
 	private static String appointmentsCSVPath = "/home/nick/Code/eclipse/clinicalordertracker/src/main/resources/appointments.csv";
 	private static String ordersCSVPath = "/home/nick/Code/eclipse/clinicalordertracker/src/main/resources/orders.csv";
-	private AppointmentCSVUpdateService appointmentCSVUpdateService;
-	private OrderCSVUpdateService orderCSVUpdateService;
+	private AppointmentCSVLoader appointmentCSVLoader;
+	private ClincalOrderCSVLoader orderCSVLoader;
+	private ClinicalOrderStateUpdater clinicalOrderStateUpdater;
+
 
 	@Autowired
-	public AthenaCSVUpdateService(AppointmentCSVUpdateService appointmentCSVUpdateService,
-			OrderCSVUpdateService orderCSVUpdateService) {
+	public AthenaCSVUpdateService(AppointmentCSVLoader appointmentCSVUpdateService,
+			ClincalOrderCSVLoader orderCSVUpdateService, ClinicalOrderStateUpdater clinicalOrderStateUpdater) {
 		super();
-		this.appointmentCSVUpdateService = appointmentCSVUpdateService;
-		this.orderCSVUpdateService = orderCSVUpdateService;
+		this.appointmentCSVLoader = appointmentCSVUpdateService;
+		this.orderCSVLoader = orderCSVUpdateService;
+		this.clinicalOrderStateUpdater = clinicalOrderStateUpdater;
 	}
 
 	public void run() throws Exception {
 		FileReader appointmentReader = loadFileReader(appointmentsCSVPath);
-		appointmentCSVUpdateService.updateAppointments(appointmentReader);
+		appointmentCSVLoader.createAppointments(appointmentReader);
 		FileReader ordersReader = loadFileReader(ordersCSVPath);
-		orderCSVUpdateService.updateOrders(ordersReader);
-
+		orderCSVLoader.createOrders(ordersReader);
+		clinicalOrderStateUpdater.run();
 	}
 
 	private FileReader loadFileReader(String path) throws Exception {
 		try {
-			return new FileReader(new File(appointmentsCSVPath));
+			return new FileReader(new File(path));
 		} catch (FileNotFoundException e) {
-			new Exception("Could not load " + appointmentsCSVPath);
+			new Exception("Could not load " + path);
 			return null;
 		}
 	}
 
 }
+

@@ -1,4 +1,4 @@
-package com.millervein.clinicalordertracker;
+package com.millervein.clinicalordertracker.appointment;
 
 public enum AppointmentStatus {
 	PENDING, CANCELLED, COMPLETE;
