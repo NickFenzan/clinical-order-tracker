@@ -8,7 +8,6 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-import javax.persistence.PostLoad;
 
 import com.millervein.clinicalordertracker.appointment.Appointment;
 import com.millervein.clinicalordertracker.appointment.AppointmentStatus;
@@ -102,7 +101,15 @@ public class ClinicalOrder {
 		this.updateAppointmentState();
 	}
 
-	@PostLoad
+	/**
+	 * This method is intended to be used when a user marks an appointment as
+	 * scheduled, but cannot provide the appointment. It will be wiped out upon
+	 * state check.
+	 */
+	public void markAsScheduled() {
+		this.scheduled = true;
+	}
+
 	private void updateAppointmentState() {
 		if (this.linkedAppointment != null) {
 			if (this.linkedAppointment.getStatus() == AppointmentStatus.CANCELLED) {
@@ -110,7 +117,7 @@ public class ClinicalOrder {
 			} else if (isLinkedAppointmentComplete()) {
 				this.closed = true;
 				this.scheduled = true;
-			} else{
+			} else {
 				this.scheduled = true;
 			}
 		} else {
