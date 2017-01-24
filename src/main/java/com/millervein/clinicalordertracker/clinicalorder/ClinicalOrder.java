@@ -2,12 +2,16 @@ package com.millervein.clinicalordertracker.clinicalorder;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 
 import com.millervein.clinicalordertracker.appointment.Appointment;
 import com.millervein.clinicalordertracker.appointment.AppointmentStatus;
@@ -28,6 +32,8 @@ public class ClinicalOrder {
 	private boolean closed;
 	@ManyToOne
 	private Appointment linkedAppointment;
+	@OneToMany(mappedBy = "clinicalOrder", cascade = CascadeType.ALL)
+	private List<ClinicalOrderCloseEvent> closeEvents;
 
 	protected ClinicalOrder() {
 	}
@@ -39,6 +45,7 @@ public class ClinicalOrder {
 		this.department = department;
 		this.patientId = patientId;
 		this.type = type;
+		this.closeEvents = new ArrayList<ClinicalOrderCloseEvent>();
 	}
 
 	public String getId() {
@@ -115,8 +122,8 @@ public class ClinicalOrder {
 			if (this.linkedAppointment.getStatus() == AppointmentStatus.CANCELLED) {
 				this.unlinkAppointment();
 			} else if (isLinkedAppointmentComplete()) {
-				this.closed = true;
 				this.scheduled = true;
+				this.close(ClinicalOrderCloseReason.COMPLETED);
 			} else {
 				this.scheduled = true;
 			}
@@ -128,6 +135,11 @@ public class ClinicalOrder {
 	private boolean isLinkedAppointmentComplete() {
 		return this.linkedAppointment != null && this.linkedAppointment.getStart().isBefore(LocalDateTime.now())
 				&& this.linkedAppointment.getStatus() == AppointmentStatus.COMPLETE;
+	}
+
+	public void close(ClinicalOrderCloseReason reason) {
+		this.closeEvents.add(new ClinicalOrderCloseEvent(this, reason, LocalDateTime.now()));
+		this.closed = true;
 	}
 
 }
