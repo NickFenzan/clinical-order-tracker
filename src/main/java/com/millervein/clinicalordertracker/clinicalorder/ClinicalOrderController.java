@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -42,15 +43,20 @@ public class ClinicalOrderController {
 				.collect(Collectors.toList());
 	}
 
-	static class CloseOrderRequest { public String reason; CloseOrderRequest(){} }
-	
+	static class CloseOrderRequest {public String reason;CloseOrderRequest() {}}
 	@RequestMapping(value = "/{orderId}/close", method = RequestMethod.POST)
-	public void closeOrder(@PathVariable String orderId, @RequestBody CloseOrderRequest request) throws Exception{
+	public void closeOrder(@PathVariable String orderId, @RequestBody CloseOrderRequest request) throws Exception {
 		ClinicalOrder order = getOrderFromPath(orderId);
 		order.close(ClinicalOrderCloseReason.valueOf(request.reason));
 		orderRepo.saveAndFlush(order);
 	}
 
+	@RequestMapping("/test")
+	public String test() {
+		SecurityContextHolder.getContext().getAuthentication().getAuthorities().stream().forEach(a->System.out.println(a));
+		return "{\"result\":\"Success!\"}";
+	}
+	
 	private ClinicalOrder getOrderFromPath(String orderId) throws Exception {
 		ClinicalOrder order = orderRepo.findOne(orderId);
 		if (order == null) {
@@ -58,8 +64,6 @@ public class ClinicalOrderController {
 		} else {
 			return order;
 		}
-
 	}
-	
 
 }
